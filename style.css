@@ -1,0 +1,93 @@
+html,body{
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: x-large;
+}
+
+.BG-image{
+        background-image: url(assets/images/theplace.jpg);
+        position: fixed; 
+        left: 0;
+        right: 0;
+        z-index: 1;
+        display: block;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 100%;
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+        filter: blur(5px);
+        background-size: cover;
+      }
+.content{
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+header{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    
+}
+h1 {
+    margin: 0 auto;
+    font-size: 100px;
+    position: relative;
+    top: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    color: black;
+    text-decoration: underline wavy black;
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.img{
+    width: 100%;
+    height: 450px;
+}
+h2{
+    
+    background: -webkit-linear-gradient(yellow, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline dotted black;
+}
+#carouselExampleIndicators,#id1,#id2{
+    display: inline-block;
+    width: 30%;
+}
+
+footer{
+    text-align: right;
+    color: black;
+    font-weight: bolder;
+
+}
+#copyright{
+    text-align: center;
+}
+#left{
+    text-align: right;
+}
+.card{
+    /* top: 50px; */
+    display: inline-block;
+}
+.card > img{
+    height: 300px;
+}
+a{
+    background: -webkit-linear-gradient(blue, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
